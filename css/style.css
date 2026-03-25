@@ -1,0 +1,327 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Praise";
+    color: #6B493D;
+}
+
+:root {
+    --gradient-start: #FFBB7F;
+    --gradient-end: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    /* position: relative; */
+    /* width: 80%; */
+    margin: 10vh 0;
+}
+
+h2::before,
+h2::after {
+    content: "";
+    flex: 1;
+    height: 1.5px;
+    background-color: #6B493D;
+    margin: 0 30px;
+}
+
+h2.works_h2 {
+    width: 80%;
+}
+
+header {
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0.7;
+    z-index: 500;
+}
+
+header img {
+    height: 7vh;
+    margin-left: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    gap: 40px;
+    margin-right: 50px;
+    font-size: 5vh;
+}
+
+ul li a {
+    color: #FFBB7F;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #6B493D;
+    /* ホバー時の文字色 */
+}
+
+#tothetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#tothetop img {
+    width: 70px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+#tothetop img:hover {
+    opacity: 1;
+}
+
+#firstview {
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(270deg, var(--gradient-start), var(--gradient-end));
+    background-size: 400% 400%;
+    animation: gradientMove 20s ease infinite;
+}
+
+/* グラデーションの動き */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#totheprofile {
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#totheprofile #name {
+    font-family: "Yu Mincho" "serif";
+    flex-direction: column;
+    width: 25%;
+}
+
+#totheprofile #name p {
+    font-size: 3.5rem;
+}
+
+#totheprofile #name img {
+    width: auto;
+    height: 4.5rem;
+    align-self: flex-end;
+}
+
+#totheprofile a img {
+    filter: sepia(100%);
+    height: 40vh;
+    border-radius: 10px
+}
+
+#totheprofile a img:hover {
+    transform: scale(1.05);
+}
+
+#tothepages {
+    filter: sepia(100%);
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#tothepages a img {
+    height: 40vh;
+    margin: 10vh;
+}
+
+#tothepages a img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    height: 20vh;
+    background-color: #FFBB7F;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: auto;
+    height: 5vh;
+    padding-top: 1vh;
+}
+
+/* ここまでtop */
+
+
+/* ここからprofile */
+
+#main {
+    justify-content: center;
+}
+
+#intoroduce {
+    /* height: 100vh; */
+    text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 2.5rem;
+    margin: 10vh;
+}
+
+@media  screen and (max-width:1034px) {
+    #intoroduce{
+        flex-flow: column;
+    }
+}
+
+#intoroduce img {
+    height: 70vh;
+}
+
+#skillmain {
+    justify-content: space-evenly;
+}
+
+#skill {
+    line-height: 1.5rem;
+    margin-bottom: 10vh;
+    width: 80%;
+    margin: 10vh auto;
+}
+
+
+/* ここまでprofile */
+
+
+/* ここからworks */
+
+#portfolio {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #portfolio img {
+    margin: 20px;
+    height: 70vh;
+} */
+
+h1 {
+    margin: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sakuhin {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0 0 10vh 0;
+}
+
+figure img {
+    text-align: center;
+}
+
+figure a img:hover {
+    opacity: 0.7;
+}
+
+figcaption {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #6B493D;
+    font-family: sans-serif;
+}
+
+/* ここまでworks */
+
+
+/* ここからcontact */
+
+#main {
+    text-align: center;
+}
+
+/* 親要素の幅を指定しつつ左寄せ */
+form p {
+    width: 51%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* ラベルをブロック化して左寄せ */
+form p label {
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+/* 入力欄の幅を100%にして、文字も左寄せに */
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    /* 余白を入れて見やすく */
+    text-align: left;
+    /* 文字を左端から開始 */
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #ffe6cc;
+}
+
+#submit {
+    width: 10vw;
+    text-align: center;
+    margin: 40px 0 150px 0;
+}
+
+#submit:hover {
+    color: #ffe6cc;
+    background-color: #6B493D;
+    /* ホバー時の文字色 */
+}
+
+/* ここまでcontact */

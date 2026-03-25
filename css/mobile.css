@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+header {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    height: auto;
+}
+
+header img {
+    margin: auto;
+}
+
+header nav {
+    margin: 0;
+}
+
+#firstview {
+    font-size: 4vh;
+}
+
+
+#totheprofile {
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+#totheprofile #name {
+    width: 80vw;
+}
+#totheprofile #name p {
+    font-size: 2.5rem;
+}
+
+#totheprofile #name img {
+    text-align: right;
+}
+
+/* ここまでtop */
+
+/* ここからportfolio */
+
