@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Praise";
+    color: #6B493D;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    justify-content: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    gap: 40px;
+    margin-top: 1vh;
+    margin-right: 50px;
+    font-size: 5vh;
+}
+
+ul li a {
+  color: #FFBB7F;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #6B493D;         /* ホバー時の文字色 */
+}
+
+#tothetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#tothetop img {
+    width: 70px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+#tothetop img:hover {
+    opacity: 1;
+}
+
+#firstview{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+
+
+
+#totheprofile{
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* #totheprofile img{
+    width: 30vw; 
+} */
+#totheprofile #name p{
+    font-size: 10px;
+}
+
+#totheprofile #name img{
+    width: 25%;
+    height: auto;
+}
+
+
+
+#tothepages{
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#worksimg{
+    width: 30%;
+    margin: 50px;
+}
+
+#contactimg{
+    width: 30%;
+    margin: 50px;
+}
+
+footer{
+    height: 20vh;
+    background-color: #FFBB7F;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    width: auto;
+    height: 5vh;
+    padding-top: 1vh;
+}
+
+/* ここまでtop */
+
+
+/* ここからprofile */
+
+
+
+/* ここまでprofile */
+
+
+/* ここからworks */
+
+#portfolio{
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio img{
+    margin: 20px;
+    height: 70vh;
+}
+
+h1{
+    margin: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ここまでworks */
+
+
+/* ここからcontact */
+
+#main{
+    text-align: center;
+}
+
+/* 親要素の幅を指定しつつ左寄せ */
+form p {
+  width: 51%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* ラベルをブロック化して左寄せ */
+form p label {
+  display: block;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+/* 入力欄の幅を100%にして、文字も左寄せに */
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;      /* 余白を入れて見やすく */
+  text-align: left;    /* 文字を左端から開始 */
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #ffe6cc;
+}
+
+#submit{
+    width: 10vw;
+    text-align: center;
+    margin: 40px 0 150px 0;
+}
+
+#submit:hover {
+    color: #ffe6cc;
+    background-color: #6B493D;         /* ホバー時の文字色 */
+}
+
+/* ここまでcontact */
