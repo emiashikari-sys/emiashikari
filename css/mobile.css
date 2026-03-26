@@ -49,6 +49,14 @@ header nav a{
     font-size:18px;
 }
 
+@media (max-width: 600px) {
+    .contact-image img {
+        width:100%;
+        height:auto;
+        display:block;
+    }
+}
+
 #firstview {
     font-size: 4vh;
 }
