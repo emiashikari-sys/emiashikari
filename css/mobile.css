@@ -9,12 +9,19 @@
 img{
     max-width:100%;
     height:auto;
+    display:block;
 }
 
 @media (max-width: 600px) {
     section {
         padding-left:20px;
         padding-right:20px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 10px 15px;
     }
 }
 
@@ -31,6 +38,15 @@ header img {
 
 header nav {
     margin: 0;
+}
+
+header nav a{
+    font-size:14px;
+    white-space: nowrap;
+}
+
+.logo{
+    font-size:18px;
 }
 
 #firstview {
