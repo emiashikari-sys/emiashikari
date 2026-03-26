@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+html,body{
+    overflow-x:hidden;
+}
+
 header {
     flex-direction: column;
     align-items: center;
