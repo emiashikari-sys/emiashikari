@@ -6,12 +6,12 @@
     }
 }
 
-img{
+/* img{
     max-width:100%;
     width:100%;
     height:auto;
     display:block;
-}
+} */
 
 @media (max-width: 600px) {
     section {
