@@ -80,7 +80,7 @@ header nav a{
 }
 @media (max-width: 600px) {
   #tothepages a img {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 4vh 0;
   }
