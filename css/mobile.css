@@ -78,7 +78,13 @@ header nav a{
 #totheprofile #name img {
     text-align: right;
 }
-
+@media (max-width: 600px) {
+  #tothepages a img {
+    width: 100%;
+    height: auto;
+    margin: 4vh 0;
+  }
+}
 /* ここまでtop */
 
 /* ここからportfolio */
