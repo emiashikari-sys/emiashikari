@@ -276,6 +276,11 @@ figcaption {
     font-family: sans-serif;
 }
 
+.works a:hover {
+    background-color: #f7e9ef; /* 好きな色に変更（例：薄いピンク） */
+}
+
+
 /* ここまでworks */
 
 
