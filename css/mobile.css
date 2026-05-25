@@ -74,5 +74,13 @@ margin: 0 auto;
 
 /* ここまでtop */
 
-/* ここからportfolio */
+/* ここからworks */
+
+.works {
+    display: block;
+}
+.works > div {
+    margin-bottom: 40px;
+}
+
 
