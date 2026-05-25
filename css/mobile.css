@@ -34,6 +34,12 @@ header nav a{
     white-space: nowrap;
 }
 
+nav ul li a {
+    font-size: 18px; /* 好きな大きさに変更 */
+    font-weight: 600; /* 少し太くして視認性UP */
+}
+
+
 .logo{
     font-size:18px;
 }
