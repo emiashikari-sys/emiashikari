@@ -270,16 +270,11 @@ figure a img:hover {
 
 figcaption {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
     margin-top: 10px;
     color: #6B493D;
     font-family: sans-serif;
 }
-
-.works a:hover {
-    background-color: #f7e9ef; /* 好きな色に変更（例：薄いピンク） */
-}
-
 
 /* ここまでworks */
 
@@ -330,3 +325,8 @@ textarea {
 }
 
 /* ここまでcontact */
+
+/* Lightbox 背景色を淡いピンクに */
+.lightboxOverlay {
+    background: rgba(255, 238, 245, 0.9) !important;
+}
