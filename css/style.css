@@ -236,7 +236,7 @@ footer img {
 
 #portfolio {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 /* #portfolio img {
