@@ -99,3 +99,21 @@ margin: 0 auto;
     text-align: center !important;
 }
 
+/* ============================
+   スマホ：profile のスキル内 figure を縦並びにする
+   ============================ */
+
+/* スキルの figure を縦並びに */
+#skill figure {
+    display: block !important;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* 画像も縦並びに合わせて調整 */
+#skill figure img {
+    width: 100%;
+    height: auto;
+}
+
+
