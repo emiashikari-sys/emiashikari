@@ -83,4 +83,17 @@ margin: 0 auto;
     margin-bottom: 40px;
 }
 
+/* ============================
+   スマホ：作品ページの修正（1列固定）
+   ============================ */
 
+/* 作品一覧を1列にする */
+.sakuhin {
+    display: block !important;
+}
+
+/* figure を縦に並べる */
+.sakuhin figure {
+    width: 100%;
+    margin-bottom: 40px;
+}
