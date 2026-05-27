@@ -324,11 +324,7 @@ textarea {
     background: rgba(255, 238, 245, 0.9) !important;
 }
 
-#skill figure {
-    text-align: center !important;
-}
-
-#skill figcaption {
+#skill {
     text-align: center !important;
 }
 
