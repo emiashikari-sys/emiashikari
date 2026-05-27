@@ -239,11 +239,6 @@ footer img {
     align-items: center;
 }
 
-/* #portfolio img {
-    margin: 20px;
-    height: 70vh;
-} */
-
 h1 {
     margin: 50px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -330,3 +325,11 @@ textarea {
 .lightboxOverlay {
     background: rgba(255, 238, 245, 0.9) !important;
 }
+
+/* PC：works の h2 を中央に強制 */
+#portfolio h2 {
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+
