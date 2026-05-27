@@ -333,3 +333,7 @@ textarea {
     display: flex !important;
 }
 
+/* PC：スキル内の言語を中央揃え */
+#skill figcaption {
+    text-align: center !important;
+}
