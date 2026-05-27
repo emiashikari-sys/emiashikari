@@ -226,6 +226,11 @@ footer img {
     margin: 10vh auto;
 }
 
+/* profile のスキル部分を中央揃えに強制 */
+#skill {
+    text-align: center !important;
+}
+
 /* profile のスキル（p）だけ中央揃えにする */
 #skill p {
     text-align: center !important;
