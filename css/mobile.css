@@ -51,7 +51,6 @@ nav ul li a {
 
 #totheprofile {
     flex-direction: column;
-    /* text-align: center; */
 }
 
 #totheprofile #name {
@@ -83,9 +82,7 @@ margin: 0 auto;
     margin-bottom: 40px;
 }
 
-/* ============================
-   スマホ：作品ページの修正（1列固定）
-   ============================ */
+
 
 /* 作品一覧を1列にする */
 .sakuhin {
@@ -97,3 +94,8 @@ margin: 0 auto;
     width: 100%;
     margin-bottom: 40px;
 }
+/* works の h2 を中央に戻す */
+#portfolio h2 {
+    text-align: center !important;
+}
+
