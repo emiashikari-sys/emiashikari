@@ -29,8 +29,6 @@ h2 {
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    /* position: relative; */
-    /* width: 80%; */
     margin: 10vh 0;
 }
 
@@ -337,3 +335,24 @@ textarea {
 #skill figcaption {
     text-align: center !important;
 }
+
+/* PC：profile のスキルを縦並び・中央揃えに統一 */
+#skill figure {
+    display: block !important;
+    text-align: center;
+    width: 100%;
+}
+
+#skill figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#skill figure figcaption {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
