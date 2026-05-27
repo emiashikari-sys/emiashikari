@@ -226,6 +226,11 @@ footer img {
     margin: 10vh auto;
 }
 
+/* profile のスキル（p）だけ中央揃えにする */
+#skill p {
+    text-align: center !important;
+}
+
 
 /* ここまでprofile */
 
@@ -323,41 +328,3 @@ textarea {
 .lightboxOverlay {
     background: rgba(255, 238, 245, 0.9) !important;
 }
-
-/* profile の figcaption だけ中央揃え */
-
-#skill figcaption {
-    text-align: center !important;
-}
-
-
-/* PC：works の h2 を中央に強制 */
-/* #portfolio h2 {
-    text-align: center !important;
-    justify-content: center !important;
-    display: flex !important;
-}
-
-
-
-
-
-#skill figure {
-    display: block !important;
-    text-align: center;
-    width: 100%;
-}
-
-#skill figure img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-
-#skill figure figcaption {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
-}
- */
