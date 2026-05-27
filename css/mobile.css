@@ -116,4 +116,11 @@ margin: 0 auto;
     height: auto;
 }
 
+#intoroduce img,
+#profile img,
+#skill img {
+    width: 100%;
+    height: auto !important;
+    object-fit: contain !important;
+}
 
