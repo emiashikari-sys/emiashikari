@@ -325,18 +325,18 @@ textarea {
 }
 
 /* PC：works の h2 を中央に強制 */
-#portfolio h2 {
+/* #portfolio h2 {
     text-align: center !important;
     justify-content: center !important;
     display: flex !important;
 }
 
-/* PC：スキル内の言語を中央揃え */
+
 #skill figcaption {
     text-align: center !important;
 }
 
-/* PC：profile のスキルを縦並び・中央揃えに統一 */
+
 #skill figure {
     display: block !important;
     text-align: center;
@@ -355,4 +355,4 @@ textarea {
     margin-top: 10px;
     text-align: center;
 }
-
+ */
